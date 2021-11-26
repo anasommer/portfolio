@@ -1,0 +1,23 @@
+:root {
+  --font-basic: "Montserrat", sans-serif;
+  --font-heading: "Alex Brush", cursive;
+  --bg-color: #eae6df;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-basic);
+}
+
+#profile-img {
+  width: 20%;
+}
+
+.main {
+  text-align: center;
+  background-color: var(--bg-color);
+}
+
+.main h1 {
+  font-family: var(--font-heading);
+}
