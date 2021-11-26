@@ -2,22 +2,58 @@
   --font-basic: "Montserrat", sans-serif;
   --font-heading: "Alex Brush", cursive;
   --bg-color: #eae6df;
+  --text-color: #2d2d2b;
+  --active-link-color: #a55050;
+  --dark-btn-bg-color: rgba(45, 45, 43, 0.7);
+  --dark-btn-text-color: #d49090;
 }
 
 * {
   box-sizing: border-box;
   font-family: var(--font-basic);
+  color: var(--text-color);
 }
 
 #profile-img {
   width: 20%;
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-bottom: 60px;
 }
 
 .main {
+  padding: 160px 20px;
   text-align: center;
   background-color: var(--bg-color);
 }
 
 .main h1 {
   font-family: var(--font-heading);
+  font-size: 96px;
+  margin-bottom: -10px;
+}
+
+.main h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.main h3 {
+  font-size: 46px;
+  font-weight: 300;
+}
+
+.btn-main {
+  margin: 20px auto;
+  background-color: var(--dark-btn-bg-color);
+  color: var(--dark-btn-text-color);
+  border: none;
+  font-size: 20px;
+  padding: 14px 26px;
+}
+
+.btn-main:hover {
+  color: var(--dark-btn-bg-color);
+  background-color: var(--dark-btn-text-color);
+  transition: ease-in-out 0.3s;
 }
