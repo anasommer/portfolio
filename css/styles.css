@@ -1,7 +1,8 @@
 :root {
   --font-basic: "Montserrat", sans-serif;
   --font-heading: "Alex Brush", cursive;
-  --bg-color: #eae6df;
+  --bg-color: #f1f1f1;
+  --bg-container-color: #eae6df;
   --text-color: #2d2d2b;
   --active-link-color: #a55050;
   --dark-btn-bg-color: rgba(45, 45, 43, 0.7);
@@ -15,7 +16,7 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: var(--bg-color);
 }
 
 .text-bold {
@@ -34,7 +35,7 @@ body {
 .main {
   padding: 160px 20px 100px;
   text-align: center;
-  background-color: var(--bg-color);
+  background-color: var(--bg-container-color);
 }
 
 h1 {
@@ -45,7 +46,7 @@ h1 {
 
 h2 {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 h3 {
@@ -86,6 +87,7 @@ h3 {
 
 .project-img {
   width: 80%;
+  background-color: var(--bg-color);
 }
 
 .project-description p {
@@ -94,7 +96,7 @@ h3 {
 }
 
 .btn-project:hover {
-  background-color: var(--bg-color);
+  background-color: var(--bg-container-color);
   transition: ease-in-out 0.3s;
 }
 
@@ -153,4 +155,11 @@ h3 {
   .container {
     padding: 0 40px;
   }
+}
+
+/* ABOUT PAGE */
+
+.about-section img {
+  width: 80%;
+  background-color: var(--bg-color);
 }
