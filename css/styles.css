@@ -137,6 +137,12 @@ h3 {
   font-size: 14px;
 }
 
+/* CONTACT PAGE */
+
+.content {
+  text-align: center;
+}
+
 /* MEDIA QUIERIES */
 
 @media (max-width: 990px) {
