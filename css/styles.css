@@ -18,6 +18,10 @@ body {
   background-color: #f1f1f1;
 }
 
+.text-bold {
+  font-weight: 700;
+}
+
 /* MAIN SECTION */
 
 #profile-img {
@@ -33,18 +37,18 @@ body {
   background-color: var(--bg-color);
 }
 
-.main h1 {
+h1 {
   font-family: var(--font-heading);
-  font-size: 96px;
+  font-size: 76px;
   margin-bottom: -10px;
 }
 
-.main h2 {
+h2 {
   font-weight: 400;
   font-size: 24px;
 }
 
-.main h3 {
+h3 {
   font-size: 46px;
   font-weight: 300;
 }
@@ -105,15 +109,15 @@ body {
     padding: 60px 20px;
   }
 
-  .main h1 {
+  h1 {
     font-size: 50px;
   }
 
-  .main h2 {
+  h2 {
     font-size: 20px;
   }
 
-  .main h3 {
+  h3 {
     font-size: 30px;
   }
 
