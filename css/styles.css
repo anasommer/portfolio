@@ -100,6 +100,21 @@ h3 {
   transition: ease-in-out 0.3s;
 }
 
+/* ABOUT PAGE */
+
+.about-section {
+  margin: 80px auto;
+}
+
+.about-section img {
+  width: 80%;
+  background-color: var(--bg-color);
+}
+
+.about-section p {
+  padding-right: 20px;
+}
+
 /* MEDIA QUIERIES */
 
 @media (max-width: 990px) {
@@ -131,9 +146,10 @@ h3 {
     padding: 0;
   }
 
-  .project-description {
+  .project-description,
+  .about-section {
     text-align: center;
-    padding: 0;
+    padding: 20px;
   }
 
   .project-description h2 {
@@ -142,6 +158,9 @@ h3 {
 
   .project-description p {
     width: 100%;
+  }
+  .about-section img {
+    margin-top: 40px;
   }
 }
 
@@ -155,11 +174,4 @@ h3 {
   .container {
     padding: 0 40px;
   }
-}
-
-/* ABOUT PAGE */
-
-.about-section img {
-  width: 80%;
-  background-color: var(--bg-color);
 }
