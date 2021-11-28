@@ -193,6 +193,26 @@ h3 {
 
 /* FOOTER PAGE */
 
+.contact-box {
+  background-color: var(--bg-container-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+.contact-box .btn-main {
+  margin: 0;
+}
+
+.contact-box h4 {
+  font-size: 48px;
+  font-family: var(--font-heading);
+}
+
+.contact-box p {
+  margin: 0;
+  font-size: 18px;
+}
+
 .email-link {
   font-size: 24px;
   text-align: center;
@@ -294,5 +314,36 @@ h3 {
 
   nav a {
     font-size: 14px;
+  }
+
+  .contact-box {
+    padding: 30px;
+  }
+
+  .contact-box h4 {
+    font-size: 26px;
+  }
+
+  .contact-box p {
+    font-size: 14px;
+  }
+
+  .contact-box .btn-main {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+
+  .email-link {
+    font-size: 18px;
+  }
+
+  .social-links {
+    font-size: 16px;
+  }
+
+  .social-links i {
+    padding: 0 0 10px;
+    background-color: transparent;
   }
 }
