@@ -211,6 +211,7 @@ h3 {
 .contact-box p {
   margin: 0;
   font-size: 18px;
+  max-width: 80%;
 }
 
 .email-link {
