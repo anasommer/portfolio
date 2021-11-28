@@ -145,7 +145,7 @@ h3 {
 
 .btn-project:hover {
   background-color: var(--bg-container-color);
-  transition: ease-in-out 0.3s;
+  transition: all ease-in-out 150ms;
 }
 
 /* ABOUT PAGE */
@@ -189,6 +189,34 @@ h3 {
 
 .content {
   text-align: center;
+}
+
+/* FOOTER PAGE */
+
+.email-link {
+  font-size: 24px;
+  text-align: center;
+  display: block;
+  color: var(--text-color);
+  padding: 40px 0;
+}
+
+.social-links {
+  text-align: center;
+}
+
+.social-links i {
+  color: var(--active-link-color);
+  background-color: var(--bg-container-color);
+  margin: 0 30px;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 10px;
+  transition: all ease-in-out 150ms;
+}
+
+.social-links i:hover {
+  color: var(--dark-btn-text-color);
 }
 
 /* MEDIA QUIERIES */
