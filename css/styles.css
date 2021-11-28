@@ -196,7 +196,6 @@ h3 {
 .contact-box {
   background-color: var(--bg-container-color);
   padding: 30px 120px;
-  border-radius: 10px;
 }
 
 .contact-box .btn-main {
