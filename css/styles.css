@@ -1,7 +1,7 @@
 :root {
   --font-basic: "Montserrat", sans-serif;
   --font-heading: "Alex Brush", cursive;
-  --bg-color: #f1f1f1;
+  --bg-color: #f5f5f5;
   --bg-container-color: #eae6df;
   --text-color: #2d2d2b;
   --active-link-color: #a55050;
@@ -21,6 +21,53 @@ body {
 
 .text-bold {
   font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #0a58ca;
+}
+
+a:hover {
+  color: var(--active-link-color);
+}
+
+/* NAVIGATION */
+
+#nav-logo {
+  color: var(--text-color);
+  font-family: var(--font-heading);
+  font-size: 28px;
+
+  text-decoration: none;
+}
+
+nav {
+  padding: 20px 0 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 40px;
+  margin-left: 10px;
+}
+
+nav a {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.active {
+  text-decoration: none;
+  color: var(--active-link-color);
+  border-bottom: 1px solid var(--active-link-color);
 }
 
 /* MAIN SECTION */
@@ -71,9 +118,6 @@ h3 {
 }
 
 /* PROJECT SECTION */
-.container {
-  padding: 3rem;
-}
 
 #heading {
   font-size: 26px;
@@ -194,6 +238,10 @@ h3 {
 }
 
 @media (max-width: 500px) {
+  #nav-logo {
+    display: none;
+  }
+
   #profile-img {
     display: none;
   }
@@ -202,5 +250,17 @@ h3 {
   }
   .container {
     padding: 0 40px;
+  }
+
+  nav ul {
+    margin: 0 auto;
+    padding: 0;
+  }
+  nav li {
+    margin-left: 5px;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
