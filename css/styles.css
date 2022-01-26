@@ -182,7 +182,18 @@ h3 {
 }
 
 .work-section p {
-  font-size: 14px;
+  font-size: 16px;
+  margin: 0 60px;
+  text-align: center;
+}
+
+.work {
+  transition: transform 0.2s;
+  height: 300px;
+}
+
+.work:hover {
+  transform: scale(1.1);
 }
 
 /* CONTACT PAGE */
@@ -291,6 +302,10 @@ h3 {
   .content-section img {
     margin-top: 40px;
   }
+
+  .work {
+    height: 200px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -318,6 +333,10 @@ h3 {
 
   nav a {
     font-size: 14px;
+  }
+
+  .work {
+    height: 250px;
   }
 
   .contact-box {
