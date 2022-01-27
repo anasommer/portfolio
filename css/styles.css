@@ -163,6 +163,12 @@ h3 {
   padding-right: 20px;
 }
 
+.skills i {
+  color: var(--active-link-color);
+  font-size: 40px;
+  padding: 5px;
+}
+
 /* WORK PAGE */
 
 .work-section h1 {
