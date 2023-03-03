@@ -148,6 +148,17 @@ h3 {
   transition: all ease-in-out 150ms;
 }
 
+.btn-github {
+  background-color: var(--bg-container-color);
+  color: var(--text-color);
+}
+
+.btn-container {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+
 /* ABOUT PAGE */
 
 .content-section {
@@ -311,6 +322,11 @@ h3 {
 
   .work {
     height: 200px;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    margin: 0 auto;
   }
 }
 
